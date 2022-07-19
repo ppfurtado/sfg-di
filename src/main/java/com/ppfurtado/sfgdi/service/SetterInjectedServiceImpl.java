@@ -3,9 +3,9 @@ package com.ppfurtado.sfgdi.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class GreetingServiceImpl implements GreetingService {
+public class SetterInjectedServiceImpl implements GreetingService {
     @Override
     public String sayGreeting() {
-        return "Hello World";
+        return "Hello World SetterInjected";
     }
 }
